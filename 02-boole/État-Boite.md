@@ -5,7 +5,7 @@
 - Remplir la boite
 - Vider la boite
 
-Il y a quatre état possible pour la boite :
+Il y a quatre états possibles pour la boite :
 
-* Elle peut être vide toiut en étant ouverte ou fermée, soit deux états
-* Elle peut être ^pleine tout en étant ouverte ou fermée soit deux autres états.
+* Elle peut être vide tout en étant ouverte ou fermée, soit deux états
+* Elle peut être pleine tout en étant ouverte ou fermée soit deux autres états.
