@@ -23,7 +23,7 @@ Les états possibles de la boite de conserve sont :
 
 ## Questions à se poser
 
-- Est ile possible de remplir une boite fermée
+- Est il possible de remplir une boite fermée
 - Est il possible de remplir une boite vide
 
 
@@ -37,6 +37,8 @@ La boite peut être remplie si elle est ouverte ET vide
 P1 = La boite peut être remplie
 P2 = La boite est vide
 P3 = La boite est ouverte
+
+P1 est vrai si P2 et P3 sont vrais
 
 
 

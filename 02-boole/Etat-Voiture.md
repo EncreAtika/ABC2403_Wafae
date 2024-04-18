@@ -1,4 +1,6 @@
-# Les opérations concernant la voiture :
+# La voiture :
+
+Considérons le cax d'une voiture pour laquelle nous définissons les opérations suivantes
 
 - Démarrer la voiture 
 - Arrêter la voitire 
@@ -6,6 +8,7 @@
 - Éteindre les phares
 - Ouvrir la porte du conducteur
 - Fermer la porte du conducteur
+
 
 # Il y a 8 états possibles pour la voiture :
 
@@ -18,3 +21,5 @@
 - Arrêter la voiture -phares éteints - porte ouverte
 - Arrêter la voiture -phares allumés - porte fermée 
 - Arrêter la voiture -phares allumés - porte ouverte 
+
+  
