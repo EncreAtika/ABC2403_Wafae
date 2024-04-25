@@ -23,9 +23,16 @@ public class App {
 		B = sc.nextInt();
 		System.out.println("");
 		
+		C = A;
+		A = B;
+		B = C;
 		
+		System.out.println("Veuillez saisir A inversé");
+		System.out.println("");
 		
+		System.out.println("Veuillez saisir B inversé");
 		
+		sc.close(); 
 		
 	
 
