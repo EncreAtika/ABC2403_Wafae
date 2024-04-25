@@ -25,17 +25,11 @@ public class App {
 	
 	nombreDeux = sc.nextInt();
 	
-	moyenne = (nombreUn+nombreDeux) / 2;
+	moyenne = (nombreUn+nombreDeux) / 2.0F;  //l'ajout du "F" indique que c'est un float on l'indique en "2.0F" ou "2F"
 	
 	System.out.println(" La moyenne de "+ nombreUn + " et "+ nombreDeux+ " est "+ moyenne+ ".");
 	
 	sc.close();
-	
-	
-			
-	
-	
-	
 	
 	}
 
