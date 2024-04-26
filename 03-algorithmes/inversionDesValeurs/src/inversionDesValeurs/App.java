@@ -27,15 +27,10 @@ public class App {
 		A = B;
 		B = C;
 		
-		System.out.println("Veuillez saisir A inversé");
-		System.out.println("");
-		
-		System.out.println("Veuillez saisir B inversé");
+		System.out.println("Le nombre A devient le nombre B soit: " + B +  " et le nombre B devient le nombre A soit: " + A + ".");
 		
 		sc.close(); 
 		
-	
-
 	}
 
 }
