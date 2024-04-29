@@ -15,22 +15,22 @@ public class App {
 		
 		sc = new Scanner(System.in);
 		
-		System.out.println("Veuillez saisir A");
+		System.out.println("Saisir le premier nombre");
 		A = sc.nextInt();
 		System.out.println("");
 		
-		System.out.println("Veuillez saisir B");
+		System.out.println("Saisir le second nombre");
 		B = sc.nextInt();
 		System.out.println("");
 		
-		C = A;
-		A = B;
-		B = C;
-		
-		System.out.println("Le nombre A devient le nombre B soit: " + B +  " et le nombre B devient le nombre A soit: " + A + ".");
+		System.out.println("Les valeurs sont " + A + " et " + B);
 		System.out.println("");
 		
-		System.out.println("Donc A = " + B +  " et B = " + A + ".");
+		C = B;
+		B = A;
+		A = C;
+		
+		System.out.println("Les valeurs sont " + A + " et " + B);
 	
 		
 		
