@@ -13,7 +13,7 @@ VARIABLES
 	- volume est un nombre réel
 
 TRAITEMENT:
-    - Lire RayonR
+    - Lire rayon R
     - aire <-- 4 π R² 
     - volume <-- (4 π R³)/3
 
