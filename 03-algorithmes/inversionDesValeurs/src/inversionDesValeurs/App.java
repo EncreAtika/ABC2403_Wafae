@@ -28,9 +28,15 @@ public class App {
 		B = C;
 		
 		System.out.println("Le nombre A devient le nombre B soit: " + B +  " et le nombre B devient le nombre A soit: " + A + ".");
+		System.out.println("");
+		
+		System.out.println("Donc A = " + B +  " et B = " + A + ".");
+	
+		
 		
 		sc.close(); 
 		
 	}
+
 
 }
