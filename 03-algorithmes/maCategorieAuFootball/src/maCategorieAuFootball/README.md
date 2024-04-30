@@ -42,25 +42,25 @@ l’informe ensuite à quelle catégorie il appartient :
     		ECRIRE : "Tu appartiens à la horde des POUSSINS!"
     		
     *SINON SI Age compris entre 9	et 10 ALORS
-    		ECRIRE : "Rejoins la team BENJAMINS!"
+    		ECRIRE : "Rejoins la Team des BENJAMINS!"
     		
     *SINON SI Age compris entre 11 et 12 ALORS
     		ECRIRE : "Bienvenue à toi PUPILLE!"
     		
     *SINON SI Age compris entre 13 et 14 ALORS
-    		ECRIRE : "Tu intègre la bande des MINIMES!"
+    		ECRIRE : "Tu intègres la bande des MINIMES!"
     		
     *SINON SI Age compris entre 15 et 16
     		ECRIRE "Te voilà CADET!"
     		
     *SINON SI Age compris entre 17 et 18
-    		ECRIRE "Tu à la force des JUNIORS!"
+    		ECRIRE "Tu as la force des JUNIORS!"
     		
     *SINON SI Age compris entre 19 et 34	
     	ECRIRE "Tu es un SENIOR certainement aguerri!"
     	
     *SINON SI Age > 34  alors
-    	ECRIRE "Tu es un maître VÉTÉRAN!"
+    	ECRIRE "Tu es un Maître VÉTÉRAN!"
 ```
 
     	
