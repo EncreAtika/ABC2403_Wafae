@@ -29,7 +29,7 @@ l’informe ensuite à quelle catégorie il appartient :
     - Age est un nombre ENTIER
     	
     TRAITEMENT :
-    - ECRIRE "Quel âge avez vous ?"
+    - ECRIRE "Quel âge as tu ?"
     - LIRE Age
     
     * SI Age < 5 ALORS
