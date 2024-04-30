@@ -23,34 +23,44 @@ l’informe ensuite à quelle catégorie il appartient :
     
     Vétéran : 35 ans et +
 
-    ```
     
+    ```
     VARIABLE :
     - Age est un nombre ENTIER
     	
     TRAITEMENT :
     - ECRIRE "Quel âge avez vous ?"
-    
     - LIRE Age
     
-    
-    
     * SI Age < 5 ALORS
-    		ECRIRE :"Vous êtes trop jeune"
+    		ECRIRE :"Tu es trop JEUNE, un peu de patience..."
     	
-    * SINON SI Age compris entre 5 et 6  
-    		ECRIRE : "Vous êtes un Débutant!"
+    * SINON SI Age compris entre 5 et 6 ALORS  
+    		ECRIRE : "Tu es un DÉBUTANT!"
     		
-    *SINON SI Age compris entre 7 et 8 
-    		ECRIRE : "Vous appartenez à la horde des Poussins!"
+    *SINON SI Age compris entre 7 et 8 ALORS
+    		ECRIRE : "Tu appartiens à la horde des POUSSINS!"
     		
-    *SINON SI Age compris entre 9	et 10
-    		ECRIRE : "Rejoignez la team Benjamin!"
+    *SINON SI Age compris entre 9	et 10 ALORS
+    		ECRIRE : "Rejoins la team BENJAMINS!"
     		
-    *SINON SI Age compris entre 11 et 12 
-    		ECRIRE : "Bienvenue à toi Pupille!"
+    *SINON SI Age compris entre 11 et 12 ALORS
+    		ECRIRE : "Bienvenue à toi PUPILLE!"
     		
-    *SINON SI Age compris entre 13 et 14
-    		ECRIRE : "Tu resteras avec les minimes!"
-    
+    *SINON SI Age compris entre 13 et 14 ALORS
+    		ECRIRE : "Tu intègre la bande des MINIMES!"
+    		
+    *SINON SI Age compris entre 15 et 16
+    		ECRIRE "Te voilà CADET!"
+    		
+    *SINON SI Age compris entre 17 et 18
+    		ECRIRE "Tu à la force des JUNIORS!"
+    		
+    *SINON SI Age compris entre 19 et 34	
+    	ECRIRE "Tu es un SENIOR certainement aguerri!"
+    	
+    *SINON SI Age > 34  alors
+    	ECRIRE "Tu es un maître VÉTÉRAN!"
+```
+
     	
