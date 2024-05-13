@@ -67,12 +67,15 @@ l’informe ensuite à quelle catégorie il appartient :
     		
     *SINON SI age compris entre 19 et 34	
     	ALORS
-    		ceteegorie := "Tu es un SENIOR certainement aguerri!"
+    		categorie := "Tu es un SENIOR certainement aguerri!"
     	
-    *SINON SI age > 34  
-    	ALORS
+    *SINON 
     		categorie "Tu es un Maître VÉTÉRAN!"
+    		
+    	FIN SI
 
+
+	
 
 ```
 
