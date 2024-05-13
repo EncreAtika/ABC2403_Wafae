@@ -20,17 +20,11 @@ public class App {
 		Minutes = sc.nextInt();
 		
 		
-		if (Heure > 23 || Heure < 0 ) {
-			
-		}
-			
-		else if ( Minutes > 59 || Minutes < 0) {
+		if (Heure > 23 || Heure < 0 || Minutes > 59 || Minutes < 0) {
 			System.out.println("Les données saisies sont invalides");
-		
-		} 
-		else {
+		} else {
 			
-		MinutesPlus3 = Minutes + 3;}
+		MinutesPlus3 = Minutes + 3;
 		
 				if (MinutesPlus3 > 60) {
 					MinutesPlus3 -= 60;
@@ -43,7 +37,7 @@ public class App {
 				
 						System.out.println("Dans 3 minutes, il sera " + Heure + "h " + MinutesPlus3);
 						
-		
+		}
 				
 		
 		sc.close();

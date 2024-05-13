@@ -26,41 +26,55 @@ l’informe ensuite à quelle catégorie il appartient :
     
     ```
     VARIABLE :
-    - Age est un nombre ENTIER
-    	
+    - age est un nombre ENTIER
+    -categorie est UNE CHAINE DE CARACTERE
+    
     TRAITEMENT :
     - ECRIRE "Quel âge as tu ?"
-    - LIRE Age
+    - LIRE age
     
-    * SI Age < 5 ALORS
-    		ECRIRE :"Tu es trop JEUNE, un peu de patience..."
+    * SI age < 5 
+    	ALORS 
+    		categorie := "Tu es trop JEUNE, un peu de patience..."
     	
-    * SINON SI Age compris entre 5 et 6 ALORS  
-    		ECRIRE : "Tu es un DÉBUTANT!"
+    * SINON SI age compris entre 5 et 6  
+    	ALORS
+    		categorie := "Tu es un DÉBUTANT!"
     		
-    *SINON SI Age compris entre 7 et 8 ALORS
-    		ECRIRE : "Tu appartiens à la horde des POUSSINS!"
+    *SINON SI age compris entre 7 et 8 
+    	ALORS
+    		categorie := "Tu appartiens à la horde des POUSSINS!"
     		
-    *SINON SI Age compris entre 9	et 10 ALORS
-    		ECRIRE : "Rejoins la Team des BENJAMINS!"
+    *SINON SI age compris entre 9	et 10 
+    	ALORS
+    		categorie := "Rejoins la Team des BENJAMINS!"
     		
-    *SINON SI Age compris entre 11 et 12 ALORS
-    		ECRIRE : "Bienvenue à toi PUPILLE!"
+    *SINON SI age compris entre 11 et 12 
+    	ALORS
+    		categorie := "Bienvenue à toi PUPILLE!"
     		
-    *SINON SI Age compris entre 13 et 14 ALORS
-    		ECRIRE : "Tu intègres la bande des MINIMES!"
+    *SINON SI age compris entre 13 et 14 
+    	ALORS
+    		categorie := "Tu intègres la bande des MINIMES!"
     		
-    *SINON SI Age compris entre 15 et 16
-    		ECRIRE "Te voilà CADET!"
+    *SINON SI age compris entre 15 et 16
+    	ALORS
+    		categorie := "Te voilà CADET!"
     		
-    *SINON SI Age compris entre 17 et 18
-    		ECRIRE "Tu as la force des JUNIORS!"
+    *SINON SI age compris entre 17 et 18
+    	ALORS
+    		categorie := "Tu as la force des JUNIORS!"
     		
-    *SINON SI Age compris entre 19 et 34	
-    	ECRIRE "Tu es un SENIOR certainement aguerri!"
+    *SINON SI age compris entre 19 et 34	
+    	ALORS
+    		ceteegorie := "Tu es un SENIOR certainement aguerri!"
     	
-    *SINON SI Age > 34  alors
-    	ECRIRE "Tu es un Maître VÉTÉRAN!"
+    *SINON SI age > 34  
+    	ALORS
+    		categorie "Tu es un Maître VÉTÉRAN!"
+
+
 ```
+
 
     	

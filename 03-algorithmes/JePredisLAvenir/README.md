@@ -22,7 +22,7 @@ Si les nombres saisis par l’utilisateur sont “hors limite”, le programme a
 	RESULTAT 
 	
 	- SI Heure est supérieur à 23 ou inférieur à 00 
-		ET/OU SI min est supérieur à 59 et inférieur à 00
+	- OU SI min est supérieur à 59 et inférieur à 00
 	- ALORS ECRIRE : "Les données saisies sont invalides"
 	
 	- SINON ECRIRE : " Dans 3 minutes il sera " , Heure + (Minutes + 3) , ,.,
