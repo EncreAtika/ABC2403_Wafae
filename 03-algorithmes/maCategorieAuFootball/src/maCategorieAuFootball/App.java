@@ -9,50 +9,50 @@ public class App {
 
 		Scanner sc = new Scanner(System.in); 
 	
-		int Age;
+		int age;
 		
 		System.out.println("Quel âge as tu ?");
 	
-		Age = sc.nextInt();
+		age = sc.nextInt();
 		
-		if(Age<5) {
+		if(age<5) {
 			System.out.println("Tu es trop JEUNE, un peu de patience...");
 			}
 	
-		else if(Age<=6) {
+		else if(age<=6) {
 			System.out.println("Tu es un Débutant !");
 		}
 			
-		else if(Age<=8) {
+		else if(age<=8) {
 			System.out.println("Tu appartiens à la horde des POUSSINS !");
 		}
 		
-		else if(Age<=10) {
+		else if(age<=10) {
 			System.out.println("Rejoins la Team des BENJAMINS !");
 		}
 		
-		else if(Age<=12) {
+		else if(age<=12) {
 			System.out.println("Bienvenue à toi PUPILLE !");
 		}
 		
-		else if(Age<=14) {
+		else if(age<=14) {
 			System.out.println("Tu intègres la bande des MINIMES !");
 			
 		}
 		
-		else if(Age<=16) {
+		else if(age<=16) {
 			System.out.println("Te voilà CADET !");
 		}
 		
-		else if(Age<=18) {
+		else if(age<=18) {
 			System.out.println("Tu as la force des JUNIORS !");
 		}
 		
-		else if(Age<=34) {
+		else if(age<=34) {
 			System.out.println("Tu es un SENIOR certainement aguerri !");
 		}
 		
-		else if(Age>34) {
+		else if(age>34) {
 			System.out.println("Tu est un Maître VÉTÉRAN!");
 		}
 		
