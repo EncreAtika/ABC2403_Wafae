@@ -21,11 +21,11 @@ Dès que j’aurai le livre qui me convient, je m’installerai confortablement 
 
 ```
 
-	VARIABLES
+	// VARIABLES
 	
 	- beauTemps est un BOOLEEN
 	
-	- VeloOKbalade est un BOOLEEN
+	- VeloOK est un BOOLEEN
 	
 	- reparationImmediateOk est un BOOLEEN
 	
@@ -34,42 +34,38 @@ Dès que j’aurai le livre qui me convient, je m’installerai confortablement 
 	- livredispobibliotheque est un BOOLEEN
 	
 	
-	TRAITEMENT
+	// TRAITEMENT
 	
-	* SI il fait beau 
+	SI beauTemps = VRAI ALORS 
+	ECRIRE "je vais me ballader à bicyclette"
+		SI veloOk = VRAI ALORS 
+		ECRIRE "j'irai me ballader à bicyclette" 
 		
-		*SI velo fonctionne 
-			- j'irai faire une balade 
-		
-		* SINON 
-			- j'irai chez le garagiste pour reparation 
-					
-			* SI réparation immédiate
-			- balade à velo
-					
-			* SINON
-			- balade à pied pres de l'etang pour cueillir des joncs}
-					
-	
-	
-	* SINON
-		- Lecture
-		
-		* SI je possede Game Of Thrones 
-		- Lecture confortable dans un fauteuil 
-		
-		* SINON
-		- je vais a la bibliotheque
+		SINON
 			
-				* SI bibliotheque possede Game OF THRONES 
-					- je rentre chez moi
-					- lecture confortable dans un fauteuil
+			ECRIRE "je vais chez le garagiste"
+				SI reparationimmediates
+					ECRIRE "j'irai me ballader à bicyclette"
+				SINON
+					ECRIRE "j’irai à pied jusqu’à l’étang pour cueillir les joncs"
 					
-				* SINON 
-				- j'empreinte un roman policier. 
-				- Je rentre chez moi
-				- lecture confortable dans un fauteuil 			
+				FIN SI
+	
+	SINON
+	ECRIRE "je consacrerai ma journée à la lecture"	
+		
+		SI livrepossede 
+		ECRIRE "Lecture confortable dans un fauteuil"
+		
+		SINON
+		ECRIRE "je vais a la bibliotheque"
+			
+				SI livredispobibliotheque
+					ECRIRE "Dès que j’aurai le livre qui me convient, je m’installerai confortablement dans un fauteuil et je me plongerai dans la lecture"
 					
+				SINON 
+				ECRIRE "j'empreinte un roman policier. Dès que j’aurai le livre qui me convient, je m’installerai confortablement dans un fauteuil et je me plongerai 						dans la lecture"
+				
 	
 	
 
