@@ -31,6 +31,20 @@ Dès que j’aurai le livre qui me convient, je m’installerai confortablement 
 	
 	TRAITEMENT
 	
+	* SI {il fait beau j'irai faire une balade 
+		*SI vélo fonctionne 
+		*SINON Garagiste pour réparation 
+					*Si réparation immédiate alors j'irai en balade à vélo
+					*SINON Balade à pied près de l'étang pour cueillir des joncs}
+					
+	* SINON SI il ne fait pas beau Lecture
+		*SI je possède Game Of Thrones Lecture 
+		*SINON SI	je ne possède pas GAME OF THRONES je vais à la bibliothèque
+			*SI bibliothèque possède Game OF THRONES je rentre chez moi pour lire dans un fauteuil
+			*SINON SI bibliothèque ne possède pas Game of Thrones j'empreinte un roman policier et je rentre
+			 pour lire dans un fauteil 			
+					
+	
 	
 
 
