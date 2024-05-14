@@ -38,39 +38,41 @@ Dès que j’aurai le livre qui me convient, je m’installerai confortablement 
 	
 	SI beauTemps = VRAI ALORS 
 	ECRIRE "je vais me ballader à bicyclette"
+		
 		SI veloOk = VRAI ALORS 
 		ECRIRE "j'irai me ballader à bicyclette" 
 		
 		SINON
-			
-			ECRIRE "je vais chez le garagiste"
+		ECRIRE "je vais chez le garagiste"
+				
 				SI reparationimmediates
-					ECRIRE "j'irai me ballader à bicyclette"
+				ECRIRE "j'irai me ballader à bicyclette"
+				
 				SINON
-					ECRIRE "j’irai à pied jusqu’à l’étang pour cueillir les joncs"
+				ECRIRE "j’irai cueillir les joncs"
 					
 				FIN SI
 	
 	SINON
-	ECRIRE "je consacrerai ma journée à la lecture"	
+	ECRIRE "je vais lire un livre"	
 		
-		SI livrepossede 
-		ECRIRE "Lecture confortable dans un fauteuil"
-		
-		SINON
+		SI livrepossede= FAUX ALORS
 		ECRIRE "je vais a la bibliotheque"
 			
-				SI livredispobibliotheque
-					ECRIRE "Dès que j’aurai le livre qui me convient, je m’installerai confortablement dans un fauteuil et je me plongerai dans la lecture"
-					
-				SINON 
-				ECRIRE "j'empreinte un roman policier. Dès que j’aurai le livre qui me convient, je m’installerai confortablement dans un fauteuil et je me plongerai 						dans la lecture"
+				SI livredispobibliotheque = VRAI ALORSI				ECRIRE "J'empreinte GOT"
+				SINON
+				ECRIRE "j'empreinte un roman policier"
 				
-	
-	
-
-
+				FIN SI
+				
+				ECRIRE "je rentre chez moi"
+			SINON
+				ECRIRE "je lis GoT"
+				
+				FIN SI
+				
+				ECRIRE "Lecture de mon livre dans mon fauteuil"
+					
 	RESULTAT 
-
-
-```
+```
+`
