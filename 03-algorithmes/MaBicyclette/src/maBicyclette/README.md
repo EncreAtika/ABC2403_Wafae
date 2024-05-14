@@ -37,16 +37,16 @@ Dès que j’aurai le livre qui me convient, je m’installerai confortablement 
 	// TRAITEMENT
 	
 	SI beauTemps = VRAI ALORS 
-	ECRIRE "je vais me ballader à bicyclette"
+	ECRIRE "je vais me balader"
 		
 		SI veloOk = VRAI ALORS 
-		ECRIRE "j'irai me ballader à bicyclette" 
+		ECRIRE "j'irai me balader à bicyclette" 
 		
 		SINON
 		ECRIRE "je vais chez le garagiste"
 				
 				SI reparationimmediates
-				ECRIRE "j'irai me ballader à bicyclette"
+				ECRIRE "j'irai me balader à bicyclette"
 				
 				SINON
 				ECRIRE "j’irai cueillir les joncs"
