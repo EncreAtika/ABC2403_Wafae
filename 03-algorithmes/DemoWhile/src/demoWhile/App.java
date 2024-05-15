@@ -17,13 +17,17 @@ public class App {
 	 */
 	public static void main(String[] args) {
 		 
-		int i = 0;
+		int i = 100;
 		
 		while(i <= 10) {
-			System.out.println("i vaut" + i);
+			System.out.println("i vaut " + i);
 			
 				i++;
 		}
+		
+		do {
+			System.out.println("i vaut " + i);
+		} while(i <= 10);
 
 	}
 
