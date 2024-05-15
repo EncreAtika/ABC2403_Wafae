@@ -12,9 +12,14 @@ public class App {
 	
 			System.out.println(i);
 			
-		    break;
+		    if(i == 5)
+			
+			break;
+			
+			i++;
 		}
 	
 	}
 
 }
+
