@@ -5,9 +5,9 @@ public class App {
 	public static void main(String[] args) 
 	{
 	
-		int i = 0; 
+		int i = 1; 
 		
-		while(i != 10)
+		do
 		{
 			i++;
 			
@@ -18,7 +18,7 @@ public class App {
 			
 			
 		}
-	
+		while(i != 10);
 	}
 
 }
