@@ -12,7 +12,7 @@ public class App {
 	
 			System.out.println(i);
 			
-			i ++;
+		    i++;
 		}
 	
 	}
