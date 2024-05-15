@@ -9,14 +9,14 @@ public class App {
 		
 		while(i != 10)
 		{
-	
-			System.out.println(i);
-			
-		    if(i == 5)
-			
-			break;
-			
 			i++;
+			
+			if(i == 5)
+					continue;
+			
+		    System.out.println(i);
+			
+			
 		}
 	
 	}
