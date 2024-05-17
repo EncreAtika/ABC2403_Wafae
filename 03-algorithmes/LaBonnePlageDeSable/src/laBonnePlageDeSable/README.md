@@ -19,7 +19,7 @@ Lorsque la réponse convient, afficher le nombre saisi suivi de “Bravo, vous a
 		ECRIRE "erreur! Veuillez resaisir un nombre entre 1 et 3"
 	
 	
-	SINON SI saisie <  3 && saisie > 1
+	SINON SI saisie <  3 || saisie > 1
 		ECRIRE "Bravo, vous avez réussi! c'est bien entre 1 est 3 : " , saisie ,
 	FIN SI
 	
