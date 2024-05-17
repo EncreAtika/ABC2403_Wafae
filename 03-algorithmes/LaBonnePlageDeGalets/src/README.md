@@ -10,8 +10,8 @@ Lorsque la réponse convient, afficher le nombre saisi suivi de “Yes, you did 
 	
 	VARIABLES
 
-	nombre est un nombre entier
-	compteur est nombre entier
+	nombre est un entier
+	compteur est entier
 	
 	TRAITEMENT :
 	
