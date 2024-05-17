@@ -1,7 +1,5 @@
 package laBonnePlageDeSable;
 
-	
-	
 		import java.util.Scanner;
 
 		public class App {
@@ -15,9 +13,6 @@ package laBonnePlageDeSable;
 				
 					do {
 					
-					
-					
-					
 						if (compteur>1) {
 							
 							System.out.println("erreur! Veuillez resaisir un nombre entre 1 et 3" );
@@ -29,24 +24,9 @@ package laBonnePlageDeSable;
 						saisie=sc.nextInt();
 							compteur++;
 					
-						
-					
-					
-				} while (saisie <1 || saisie >3);
-
-				System.out.println("Bravo, vous avez réussi! c'est bien entre 1 est 3 : " + saisie );
+						} while (saisie <1 || saisie >3);
+						System.out.println("Bravo, vous avez réussi! c'est bien entre 1 est 3 : " + saisie );
 				
-		
-				
-
-
-
-
-
-
-
-
-
-	}
+			}
 
 }
