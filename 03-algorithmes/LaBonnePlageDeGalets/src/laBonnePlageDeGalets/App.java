@@ -1,10 +1,15 @@
 package laBonnePlageDeGalets;
 
-public class App {
+	import java.util.Scanner;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public class App {
 
-	}
+		public static void main(String[] args) {
+		
+			
+	
+		
+		
+		}
 
 }
