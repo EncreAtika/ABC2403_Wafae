@@ -5,8 +5,8 @@ public class Principale02 {
 	public static void main(String[] args) {
 		
 		// Déclaration des variables
-		int dividende, diviseur;
-		double quotient;
+		int diviseur;
+		double dividende, quotient;
 		
 		//Initialisation des variables 
 		dividende = 5;
@@ -18,6 +18,6 @@ public class Principale02 {
 		// Affichage du résultat dans la console 
 		System.out.print("le quotient de la division est " + quotient);
 
-	}
+	} 
 
 }
