@@ -9,8 +9,10 @@ public class Principale03 {
 		double prixArticle, prixSolde;
 
 		Scanner clavier = new Scanner(System.in);
+
 		System.out.print("Entrer le prix de l'article non soldé : ");
 		prixArticle = clavier.nextDouble();
+
 		System.out.print("Entrer le code solde, 1 pour -20% ou 2 pour -50% : ");
 		codeSolde = clavier.nextInt();
 
@@ -21,9 +23,15 @@ public class Principale03 {
 
 		}
 
-		 else {
+		else if (codeSolde == 2) {
 			prixSolde = 0.5 * prixArticle;
 			System.out.print("Le prix de l'article soldé est à -50% est " + prixSolde + " €. ");
+		}
+
+		else {
+			prixSolde = 0.3 * prixArticle;
+			System.out.print("Le prix de l'article soldé à -70 % est " + prixSolde + " €. ");
+
 		}
 
 		clavier.close();
