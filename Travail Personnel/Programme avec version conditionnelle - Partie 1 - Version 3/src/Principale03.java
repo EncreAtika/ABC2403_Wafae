@@ -21,7 +21,7 @@ public class Principale03 {
 
 		}
 
-		else {
+		 else {
 			prixSolde = 0.5 * prixArticle;
 			System.out.print("Le prix de l'article soldé est à -50% est " + prixSolde + " €. ");
 		}
