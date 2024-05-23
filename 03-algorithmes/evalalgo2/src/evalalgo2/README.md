@@ -13,6 +13,6 @@ VARIABLES
 	Resultat est une chaine de caractère			// sera affiché à l'utilisateur à la fin du programme 
 	NbPrecedent est un entier 64 bits				// Nombre précédent dans la suite		
 	NbCourant est un entier 64 bits					// Nombre courant dans la suite
-	NbSuivant est un entier 64 bits					Nombre suivant dans la suite (celui qu'on est en train de calculer)
+	NbSuivant est un entier 64 bits					// Nombre suivant dans la suite (celui qu'on est en train de calculer)
 	
 	
