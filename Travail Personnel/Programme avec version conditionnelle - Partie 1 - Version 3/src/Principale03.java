@@ -13,7 +13,7 @@ public class Principale03 {
 		System.out.print("Entrer le prix de l'article non soldé : ");
 		prixArticle = clavier.nextDouble();
 
-		System.out.print("Entrer le code solde, 1 pour -20% ou 2 pour -50% : ");
+		System.out.print("Entrer le code solde, 1 pour -20% ou 2 pour -50% ou 3 pour -70% : ");
 		codeSolde = clavier.nextInt();
 
 		// Calcul du prix soldé et affichage
