@@ -22,17 +22,18 @@ public class Principale05 {
 		tauxInteret = clavier.nextDouble();
 		capitalFinal = capitalInitial;
 		
-		for (i = 1; i <= nombreAnnees; i++) { //i++ augmente i de 1 à chaque tour de boucle
-			capitalFinal = (1+ tauxInteret/100)*capitalFinal;
+		for (i=1; i <= nombreAnnees; i++) { //i++ augmente i de 1 à chaque tour de boucle
+			capitalFinal = (1 + tauxInteret/100)*capitalFinal;
+		}
 		
-			System.out.print("Les intérêts acquis au bout de " + nombreAnnees + " an(s) sont de ");
+			System.out.print("Les intérêts acquis au bout de " + nombreAnnees + "an(s) sont de");
 			
 			System.out.printf("%6.2f", capitalFinal - capitalInitial ); // Formatage 8 chiffres dont 2 décimales
 			
-			System.out.print(" €");
+			System.out.print("€");
 			
 			clavier.close();
-		}
+		
 
 	}
 
